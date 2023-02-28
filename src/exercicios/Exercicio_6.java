@@ -110,8 +110,25 @@ public class Exercicio_6 {
 		
 		case 5:
 			
+			System.out.println("Escreva uma palavra: ");
+			leia.nextLine();
+			String palavra = leia.next();
 			
+			System.out.printf("E o número de linhas e colunas: ");
+			int L = leia.nextInt();
+			int C = leia.nextInt();
+	
+		    for (int l = 0; l < L; l++)
+		    {
+		    	System.out.println("");
+		    	for (int c = 0; c < C; c++)
+		    	{
+		    		System.out.print(palavra + " ");	 
+		    	}        
+		    }
 			
+		    System.out.println("\n");
+		    
 			System.out.println("Digite 1 para voltar ao menu ou digite 0 para encerrar o programa");
 			aux = leia.nextInt();
 			

@@ -8,7 +8,14 @@ public class Exercicio_4 {
 		 
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.println();
-
+		int A, B, P; 
+		
+		System.out.printf("Informe a altura e a base de um retângulo: ");
+		int B1 = leia.nextInt();
+		int A1 = leia.nextInt();
+		
+		P =(2*A1)+(2*B1);
+		
+		System.out.println("O perímetro do retângula é: " + P);
 	}
 }
